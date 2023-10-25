@@ -12,6 +12,7 @@ public class Main {
         out(true,false,true);
         out(true,true,false);
         out(true,true,true);
+        ////kkkkk
     }
     public static void out(boolean x, boolean y, boolean z){
         System.out.println((x ? "1 " : "0 ") + (y ? "1 " : "0 ") + (z ? "1 " : "0 ") + ((x && y && z) ^ (x || !(y && z)) ^ (x && y || !z) ^ (x && !y && z) ? " 1" : " 0"));
